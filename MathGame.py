@@ -7,7 +7,7 @@ def new_num(): #Making a random number
     global x
     x = random.randint(0,50)
     y = random.randint(0,50)
-# jam kardan
+# Plus
 def jam():
     global y 
     global x 
