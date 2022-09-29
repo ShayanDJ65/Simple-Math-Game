@@ -65,7 +65,7 @@ for i in range(11): # 10 chances
             print("Oops! You' lost one score!")
             new_num()
     if option == "3":
-        user_answer =int(input("{} * {} = ? ".format(x,y)))
+        user_answer =float(input("{} * {} = ? ".format(x,y)))
         zarb()
         if user_answer==z:
             score+=1
@@ -76,7 +76,7 @@ for i in range(11): # 10 chances
             print("Oops! You' lost one score!")
             new_num()
     if option == "4":
-        user_answer =int(input("{} / {} = ? ".format(x,y)))
+        user_answer =float(input("{} / {} = ? ".format(x,y)))
         taghsim()
         if user_answer==z:
             score+=1
