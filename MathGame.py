@@ -38,7 +38,7 @@ def taghsim():
 score= 0 
 user_answer = 0
 name = input("Welcome to the math game! Please enter your name: ")
-print("Well {} ! Let's begin...".format(name))
+print("Well {} ! Let's begin... Remember You have 10 chances. ".format(name))
 time.sleep(1.8) 
 for i in range(11): # 10 chances 
     option = input("\nPlease choose one option:\n1.Add\n2.Substract\n3.Multiplying\n4.Dividing\n")
